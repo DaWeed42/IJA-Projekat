@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktirajte Nas</title>
+    <link rel="stylesheet" href="stylesKontakt.css">
+</head>
+<body>
+
+    <header>
+        <h1>Game Vortex</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Pocetna</a></li>
+                <li><a href="igre.html">Igre</a></li>
+                <li><a href="#">Vesti</a></li>
+                <li><a href="#">Recenzije</a></li>
+                <li><a href="#">O Nama</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Kontaktirajte nas</h1>
+
+    <section class="contact-form">
+        <form action="#" method="post">
+            <label for="firstName">Ime:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Prezime:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="email">Mejl:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="age">Godine:</label>
+            <select id="age" name="age">
+                <option value="under18">Mlađi od 18</option>
+                <option value="18-25">18-25</option>
+                <option value="26-35">26-35</option>
+                <option value="36-50">36-50</option>
+                <option value="over50">Stariji od 50</option>
+            </select>
+
+            <label for="newsletter">Pretplati se na newsletter:</label>
+            <input type="checkbox" id="newsletter" name="newsletter">
+
+            <button type="submit">Pošalji</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Game Vortex. Sva prava zadržana.</p>
+    </footer>
+
+</body>
+</html>
